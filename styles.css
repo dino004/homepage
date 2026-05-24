@@ -268,3 +268,20 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+.contact-info__item {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.contact-info__item:hover {
+  color: var(--text-decoration-color);
+  transform: translateX(3px);
+}
+
+.contact-info__avatar {
+  transition: transform 0.4s ease;
+}
+
+.contact-info__avatar:hover {
+  transform: scale(1.05);
+}
